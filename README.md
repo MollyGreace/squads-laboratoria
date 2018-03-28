@@ -124,7 +124,7 @@ Se realizó un prototipo en figma y marvel se testeó 2 veces.
 
 [Prototipo Alta fidelidad 1](https://marvelapp.com/3bc6eae)
 
-[Prototipo Alta fidelidad 2]()
+[Prototipo Alta fidelidad 2](https://marvelapp.com/5084fe7)
 
 ## **5. TESTING**
 
@@ -149,8 +149,13 @@ Se realizó un prototipo en figma y marvel se testeó 2 veces.
   - Me gusta que se vea el % de soft y tech, e inglés. Mas no de comnuicación y manejo de tiempo.
   - Quisiera agregar la opción de dar una condición: "Juanita y Pepita que no estén juntas"
 
+**Iteración:**
 
+En base a los 02 testings anteriores se realizaron cambios modificándose y quedando el flujo de esta manera:
 
+[PRODUCTO FINAL - Marvel](https://marvelapp.com/5084fe7)
+
+[PRODUCTO FINAL - GH-PAGES]()
 
 **PROYECTO REALIZADO POR:**
 
