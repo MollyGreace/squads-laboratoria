@@ -62,7 +62,8 @@ Los squads son de 6 estudiantes, y su distribución debería incluir como mínim
 ![jcm](https://user-images.githubusercontent.com/32301249/38036457-5edf84a0-326c-11e8-9ab8-f1dfe4f0ab37.png)
 
 ### **User Persona**
-(alejandra)
+![userperson](https://user-images.githubusercontent.com/32301249/38040607-7a541dfa-3275-11e8-82dc-450fa6265b85.png)
+
 
 ### **Feature List**
 
