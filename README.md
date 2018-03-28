@@ -11,8 +11,7 @@ Es por eso que se solicitó rediseñar y modificar parte del flujo, creando una 
 
 ### **Planing**
 * Teniendo 03 días  nuestro planing fue el siguiente:
-(foto plan en excel)
-(foto plan en trello)
+
 [Link a Trello](https://trello.com/b/sTSWw4Hu/squads-laboratoria)
 
 ### **Entrevistas**
@@ -60,17 +59,46 @@ Los squads son de 6 estudiantes, y su distribución debería incluir como mínim
 ## **2. SÍNTESIS Y DEFINICIÓN**
 
 ### **Journey Map**
-(actual)
+![jcm](https://user-images.githubusercontent.com/32301249/38036457-5edf84a0-326c-11e8-9ab8-f1dfe4f0ab37.png)
 
 ### **User Persona**
 (alejandra)
 
 ### **Feature List**
 
-*Plataforma Web de Organización de Squads*
-1. Home:
+**Plataforma Web de Organización de Squads**
 
-    1.1 Home con organización:
+**1. Home:**
+
+    -  Fecha.
+    - Nombre/número del sprint actual.
+    - Sede de la Training Manager loggeada. 
+    - Distribuir los squads para el sprint. 
+    - Si es que ya hay sprints distribuidos del sprint anterior estos no serán ‘draggeables’.
+
+**1.1 Home con organización:**
+
+      - Boards tipo trello. 
+      - MENSAJES: sobre los squads, este aparecerá en la parte superior del board. 
+      - En cada board habrán cards que representen a las estudiantes (1 card por estudiante). 
+    - La TM podrá mover una estudiante a otro squad. Al mover una estudiante a otro squad, la aplicación hará la verificación con ese nuevo squad y lanzará los mensajes de alerta necesarios, por ejemplo:
+      - El número de personas del squad es 7 (este mensaje solo desaparecerá cuando la ™ haya movido a otra estudiante al squad del que provino la primera. 
+      - Hay 2 estudiantes que ya han estado juntas antes. Estudiante 1 y 2. 
+      - Hay 2 estudiantes con nivel de inglés mayor de 3. 
+    - La ™ tendrá que aceptar los warnings para que estos desaparezcan. - - 
+    Mientras haya warnings el botón de “Confirmar squads” estará desactivado.
+    - Cuando la ™ confirme los squads, le aparecerá un mensaje de confirmación, avisándole que al aceptar le enviarán un email a las estudiantes.
+    - Al confirmar: 
+      - Se les envía un email a las estudiantes notificándoles qué su nuevo squad está confirmado. Para ello pueden usar el API de Sendgrid.
+      - Se bloqueará la opción de “dragging” de los cards de los squads. 
+      - Se guardará la data final de los squads en firabase o en un googlesheets
+      - En el json de cada estudiante se guardarán los ids de las compañeras de su squad de este nuevo sprint.
+
+**2. Mensajes**
+
+    * Si haces ese cambio habrán 2 estudiantes con más de 70% en HSE
+    * Si haces ese cambio no habrá ninguna estudiante con nivel de inglés 1 o 2
+    * [“Los squads quedaron muy bien!“ , “estos squads la van a romper”, “Wow! Excelente manera de armar squads”]. ¿Lista para confirmarle los squads a las estudiantes? - Confirmar.
 
 
 **Herramientas :**  
@@ -88,21 +116,22 @@ Los squads son de 6 estudiantes, y su distribución debería incluir como mínim
 ### **Nuestra Propuesta**
 ![Modelo prototipo 1](https://user-images.githubusercontent.com/32301249/37998411-21a1e98a-31e4-11e8-876b-de99d2ceff76.png)
 
-### ****
+
 
 ## **4. PROTOTIPADO**
 Se realizó un prototipo en figma y marvel se testeó 2 veces.
 
 [Prototipo Alta fidelidad 1](https://marvelapp.com/3bc6eae)
 
+[Prototipo Alta fidelidad 2]()
 
 ## **5. TESTING**
 
 * **Testing 1:**
 
-Usuario: Alejandra Ramírez(TM - Lima)
+  Usuario: Alejandra Ramírez(TM - Lima)
 
-Feedback:
+  Feedback:
   - Me gustan más 02 cards en la pantalla completa.
   - Prefiría otros colores.
   - Que sólo se vea el % de Soft y Tech Skills e Inglés.
@@ -111,9 +140,9 @@ Feedback:
 
 * **Testing 2:** 
 
-Usuario: Mariana Guerra(Talento y Cultura/Formación - Lima)
+  Usuario: Mariana Guerra(Talento y Cultura/Formación - Lima)
 
-Feedback:
+  Feedback:
   - Me parece mejor los cards horizontales porque me confunden mucho así en vertical.
   - Me gustaría ver cada squad con un color diferente.
   - Me gusta que se vea el % de soft y tech, e inglés. Mas no de comnuicación y manejo de tiempo.
